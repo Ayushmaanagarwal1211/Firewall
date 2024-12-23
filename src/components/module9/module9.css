@@ -1,0 +1,71 @@
+.ufw-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  .ufw-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+  }
+  
+  .ufw-table th, .ufw-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ufw-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .ufw-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .delete-form {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .delete-form label {
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  .delete-form input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .delete-form button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-form button:hover {
+    background-color: #e60000;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
